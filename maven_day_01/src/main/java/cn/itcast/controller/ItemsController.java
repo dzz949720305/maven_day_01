@@ -20,4 +20,7 @@ public class ItemsController {
         model.addAttribute("item", items);
         return "itemDetail";
     }
+    public void asd(){
+        System.out.println("123");
+    }
 }
